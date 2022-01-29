@@ -1,0 +1,64 @@
+.heading{
+    margin-top: 0;
+    background-color: violet;
+    color: black;
+    line-height: 1.5;
+}
+#play_btn{
+    color:rgb(66, 24, 24);
+    border:white 5px solid ;
+}
+
+#btn_instruction{
+    color:black;
+    border:white 5px solid ;
+    float:right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+#status{
+    border-radius: 25%;
+    border:white 5px solid ;
+    color: black;
+    font: bolder;
+
+    /* why is the above for font bolder not working */
+}
+
+#restart_btn{
+    color:black;
+    border:white 5px solid ;
+}
+
+
+
+.footer{
+    background-color:mediumvioletred;
+    color: white;
+    line-height: 3;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+
+    bottom: 0;
+    position: fixed; 
+}
+/* why is the footer going in the end of the screen only when position is fixedand bottom is 0*/
+
+.close:hover{
+    border: black 2px solid;
+    background-color: red;
+}
+#canvas{
+    border: lime 5px dashed;
+    background-color:hotpink;
+    /* why was the code not working when it was like this 
+    #canvas{
+    border: lime 5px dashed;
+    background-color:hotpink
+    width: fit-content;
+
+    I KNOW THAT THERE IS A SEMICOLON MISSING BUT TILL THERE IT SHOULD WORK
+    */
+    width: fit-content;
+}
